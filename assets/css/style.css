@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,.3);
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+input[type="text"] {
+    display: block;
+    margin:10px auto;
+    width: 400px;
+    height:30px;
+}
+
+input[type="submit"] {
+    margin:auto;
+    display: block;
+}
+
+label {
+    text-align: center;
+    display: block;
+}
+

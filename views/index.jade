@@ -1,0 +1,9 @@
+extends parts/header
+block content
+    h1 this is the #{pageTitle}
+    form#contact_form(method="POST", action='/')
+        label(for="name") Введите ваше имя
+        input(type="text", id="name", name="name")
+        label(for="email") Введите ваш email
+        input(type="text", id="email", name="email")
+        input(type="submit", value="Отправить")
